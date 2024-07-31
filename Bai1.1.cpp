@@ -14,6 +14,6 @@ int main() {
     int n;
     printf("Nhap n: ");
     scanf_s("%d", &n);
-    printf("Tong cua cac so tu 1 den %d la: %d\n", n, sumN(n));
+    printf("Tong bang: %d\n", sumN(n));
     return 0;
 }
